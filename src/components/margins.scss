@@ -1,0 +1,49 @@
+@each $size, $value in $bmx-sizes {
+    .bmx-m-#{$size} {
+        margin: $value !important;
+    }
+    .bmx-my-#{$size} {
+        margin-top: $value !important;
+        margin-bottom: $value !important;
+    }
+    .bmx-mx-#{$size} {
+        margin-left: $value !important;
+        margin-right: $value !important;
+    }
+    .bmx-mt-#{$size} {
+        margin-top: $value !important;
+    }
+    .bmx-mr-#{$size} {
+        margin-right: $value !important;
+    }
+    .bmx-mb-#{$size} {
+        margin-bottom: $value !important;
+    }
+    .bmx-ml-#{$size} {
+        margin-left: $value !important;
+    }
+
+    .bmx-m-n#{$size} {
+        margin: -$value !important;
+    }
+    .bmx-my-n#{$size} {
+        margin-top: -$value !important;
+        margin-bottom: -$value !important;
+    }
+    .bmx-mx-n#{$size} {
+        margin-left: -$value !important;
+        margin-right: -$value !important;
+    }
+    .bmx-mt-n#{$size} {
+        margin-top: -$value !important;
+    }
+    .bmx-mr-n#{$size} {
+        margin-right: -$value !important;
+    }
+    .bmx-mb-n#{$size} {
+        margin-bottom: -$value !important;
+    }
+    .bmx-ml-n#{$size} {
+        margin-left: -$value !important;
+    }
+}

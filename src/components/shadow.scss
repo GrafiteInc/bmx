@@ -1,0 +1,9 @@
+.bmx-drop-shadow {
+    filter: drop-shadow($box-shadow);
+}
+
+.bmx-drop-shadow-hover {
+    &:hover {
+        filter: drop-shadow($box-shadow);
+    }
+}

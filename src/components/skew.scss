@@ -1,0 +1,5 @@
+@each $key, $value in $bmx-slants {
+    .bmx-skew-#{$key} {
+        transform: skewY($value);
+    }
+}

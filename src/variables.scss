@@ -1,0 +1,179 @@
+$bmx-blurs: (
+    "0": 0px,
+    "1": 3px,
+    "2": 6px,
+    "3": 18px,
+    "4": 72px,
+);
+
+$bmx-scales: (
+    "0": 1.00,
+    "1": 1.05,
+    "2": 1.15,
+    "3": 1.30,
+    "4": 1.50,
+);
+
+$bmx-rotates: (
+    "0": 0deg,
+    "1": 45deg,
+    "2": 90deg,
+    "3": 180deg,
+    "4": 270deg,
+);
+
+$bmx-sizes: (
+    "1": 1rem,
+    "2": 2rem,
+    "3": 3rem,
+    "4": 4rem,
+    "5": 5rem,
+    "6": 6rem,
+    "7": 7rem,
+    "8": 8rem,
+    "9": 9rem,
+    "10": 10rem
+);
+
+$bmx-colors: (
+    "white": $white,
+    "black": $black,
+    "blue": $blue,
+    "indigo": $indigo,
+    "purple": $purple,
+    "pink": $pink,
+    "red":  $red,
+    "orange": $orange,
+    "yellow": $yellow,
+    "green": $green,
+    "teal": $teal,
+    "cyan": $cyan,
+    "gray-100": $gray-100,
+    "gray-200": $gray-200,
+    "gray-300": $gray-300,
+    "gray-400": $gray-400,
+    "gray-500": $gray-500,
+    "gray-600": $gray-600,
+    "gray-700": $gray-700,
+    "gray-800": $gray-800,
+    "gray-900": $gray-900
+);
+
+$bmx-heights: (
+    "h-1": 1rem,
+    "h-2": 2rem,
+    "h-3": 3rem,
+    "h-4": 4rem,
+    "h-5": 5rem,
+    "h-6": 6rem,
+    "h-7": 7rem,
+    "h-8": 8rem,
+    "h-9": 9rem,
+    "h-10": 10rem,
+    "h-11": 11rem,
+    "h-12": 12rem,
+    "h-13": 13rem,
+    "h-14": 14rem,
+    "h-15": 15rem,
+    "h-16": 16rem,
+    "h-17": 17rem,
+    "h-18": 18rem,
+    "h-19": 19rem,
+    "h-20": 20rem,
+    "h-21": 21rem,
+    "h-22": 22rem,
+    "h-23": 23rem,
+    "h-24": 24rem,
+    "vh-25": 25vh,
+    "vh-50": 50vh,
+    "vh-75": 75vh,
+    "vh-100": 100vh
+);
+
+ $bmx-min-heights: (
+    "mh-25": 25vh,
+    "mh-50": 50vh,
+    "mh-75": 75vh,
+    "mh-100": 100vh
+);
+
+$bmx-slants: (
+    "1": 1deg,
+    "2": 2deg,
+    "3": 3deg,
+    "4": 4deg,
+    "5": 5deg,
+    "6": 6deg,
+    "7": 7deg,
+    "8": 8deg,
+    "9": 9deg,
+    "10": 10deg
+);
+
+$bmx-opacities: (
+    "0": 0,
+    "5": 0.05,
+    "10": 0.1,
+    "20": 0.2,
+    "25": 0.25,
+    "30": 0.3,
+    "40": 0.4,
+    "50": 0.5,
+    "60": 0.6,
+    "70": 0.7,
+    "75": 0.75,
+    "80": 0.8,
+    "90": 0.9,
+    "95": 0.95,
+    "100": 1
+);
+
+$bmx-durations: (
+    "200": 200ms,
+    "500": 500ms,
+    "2": 2s,
+    "3": 3s,
+    "4": 4s,
+    "5": 5s,
+    "6": 6s,
+    "7": 7s,
+    "8": 8s,
+    "9": 9s,
+    "10": 10s
+);
+
+$bmx-font-sizes: (
+    "10": 5rem,
+    "9": 4.5rem,
+    "8": 4rem,
+    "7": 3.5rem,
+    "6": 3rem,
+    "5": 2.5rem,
+    "4": 2rem,
+    "3": 1.75rem,
+    "2": 1.5rem,
+    "1": 1.25rem
+);
+
+$bmx-font-weights: (
+    "b": bold,
+    "l": lighter,
+    "100": 100,
+    "200": 200,
+    "300": 300,
+    "400": 400,
+    "500": 500,
+    "600": 600,
+    "700": 700,
+    "800": 800,
+    "900": 900
+);
+
+$header-height: 52px;
+$footer-height: 52px;
+
+:root {
+    --bmx-animation-duration: 1s;
+    --bmx-bg-opacity: 1;
+    --bmx-text-opacity: 1;
+}

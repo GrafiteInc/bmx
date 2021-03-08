@@ -1,0 +1,73 @@
+@each $key, $value in $bmx-slants {
+    .bmx-slant-bottom-n#{$key} {
+        position: relative;
+        z-index: 0;
+        &:before {
+            background: inherit;
+            content: '';
+            display: block;
+            height: 90%;
+            left: 0;
+            position: absolute;
+            right: 0;
+            z-index: -1;
+            top: 0;
+            transform: skewY($value);
+            transform-origin: -20%;
+        }
+    }
+
+    .bmx-slant-top-n#{$key} {
+        position: relative;
+        z-index: 0;
+        &:after {
+            background: inherit;
+            content: '';
+            display: block;
+            height: 90%;
+            left: 0;
+            position: absolute;
+            right: 0;
+            z-index: -1;
+            bottom: 0;
+            transform: skewY($value);
+            transform-origin: 130%;
+        }
+    }
+
+    .bmx-slant-top-#{$key} {
+        position: relative;
+        z-index: 0;
+        &:before {
+            background: inherit;
+            content: '';
+            display: block;
+            height: 90%;
+            left: 0;
+            position: absolute;
+            right: 0;
+            z-index: -1;
+            top: 0;
+            transform: skewY(-$value);
+            transform-origin: 0%;
+        }
+    }
+
+    .bmx-slant-bottom-#{$key} {
+        position: relative;
+        z-index: 0;
+        &:after {
+            background: inherit;
+            content: '';
+            display: block;
+            height: 90%;
+            left: 0;
+            position: absolute;
+            right: 0;
+            z-index: -1;
+            bottom: 0;
+            transform: skewY(-$value);
+            transform-origin: 100%;
+        }
+    }
+}

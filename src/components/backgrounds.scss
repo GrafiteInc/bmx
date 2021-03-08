@@ -1,0 +1,15 @@
+@each $color, $value in $bmx-colors {
+    .bmx-bg-#{$color} {
+        background-color: rgba(mix($value, $value), var(--bmx-bg-opacity));
+    }
+}
+
+@each $key, $value in $bmx-opacities {
+    .bmx-bg-opacity-#{$key} {
+        --bmx-bg-opacity: #{$value};
+    }
+}
+
+.bmx-bg-transparent {
+    background-color: transparent;
+}

@@ -1,0 +1,22 @@
+@each $color, $value in $bmx-colors {
+    .bmx-text-#{$color} {
+        color: rgba(mix($value, $value), var(--bmx-text-opacity)) !important;
+    }
+}
+
+@each $key, $value in $bmx-opacities {
+    .bmx-text-opacity-#{$key} {
+        --bmx-text-opacity: #{$value};
+    }
+}
+
+@each $color, $value in $bmx-colors {
+    .bmx-link-#{$color} {
+        color: $value;
+
+        &:hover,
+        &:focus {
+            color: shade-color($value, .5);
+        }
+    }
+}

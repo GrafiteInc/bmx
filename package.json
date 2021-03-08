@@ -1,0 +1,22 @@
+{
+  "name": "@grafite/bootstrap-magic-extras",
+  "version": "0.1.0",
+  "description": "A collection of utility style classes to add extra features to Bootstrap.",
+  "homepage": "https://github.com/grafiteinc/bootstrap-magic-extras#readme",
+  "bugs": {
+    "url": "https://github.com/grafiteinc/bootstrap-magic-extras/issues"
+  },
+  "main": "src/bmx.scss",
+  "scripts": {},
+  "keywords": [
+    "Bootstrap"
+  ],
+  "author": "mlantz",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.5"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.2"
+  }
+}

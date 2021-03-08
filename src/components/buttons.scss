@@ -1,0 +1,11 @@
+@each $color, $value in $bmx-colors {
+    .bmx-btn-#{$color} {
+        @include button-variant($value, $value);
+    }
+}
+
+@each $color, $value in $bmx-colors {
+    .bmx-btn-outline-#{$color} {
+        @include button-outline-variant($value);
+    }
+}

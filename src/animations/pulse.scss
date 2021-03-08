@@ -1,0 +1,29 @@
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.bmx-pulse {
+    animation-duration: var(--bmx-animation-duration);
+    animation-name: pulse;
+    transform-origin: center center;
+    animation-timing-function: ease-in-out;
+}
+
+.bmx-pulse-hover {
+    &:hover {
+        animation-duration: var(--bmx-animation-duration);
+        animation-name: pulse;
+        transform-origin: center center;
+        animation-timing-function: ease-in-out;
+    }
+}

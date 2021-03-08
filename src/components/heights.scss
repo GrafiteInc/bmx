@@ -1,0 +1,15 @@
+@each $key, $value in $bmx-heights {
+    .bmx-#{$key} {
+        height: $value;
+    }
+}
+
+@each $key, $value in $bmx-min-heights {
+    .bmx-#{$key} {
+        min-height: $value;
+    }
+}
+
+.bmx-min-h-window {
+    min-height: calc(100vh - (#{$header-height} + #{$footer-height}));
+}

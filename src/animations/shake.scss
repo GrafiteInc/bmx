@@ -1,0 +1,67 @@
+@keyframes shakeX {
+  from,
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+.bmx-shake-x {
+    animation-duration: var(--bmx-animation-duration);
+    animation-name: shakeX;
+}
+
+.bmx-shake-x-hover {
+    &:hover {
+        animation-duration: var(--bmx-animation-duration);
+        animation-name: shakeX;
+    }
+}
+
+@keyframes shakeY {
+  from,
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translate3d(0, -10px, 0);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translate3d(0, 10px, 0);
+  }
+}
+
+.bmx-shake-y {
+    animation-duration: var(--bmx-animation-duration);
+    animation-name: shakeY;
+}
+
+.bmx-shake-y-hover {
+    &:hover {
+        animation-duration: var(--bmx-animation-duration);
+        animation-name: shakeY;
+    }
+}

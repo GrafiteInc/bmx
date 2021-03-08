@@ -1,0 +1,11 @@
+@each $key, $value in $bmx-font-sizes {
+    .bmx-fs-#{$key} {
+        font-size: $value;
+    }
+}
+
+@each $key, $value in $bmx-font-weights {
+    .bmx-fw-#{$key} {
+        font-weight: $value;
+    }
+}

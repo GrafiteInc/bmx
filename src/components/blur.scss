@@ -1,0 +1,13 @@
+@each $size, $value in $bmx-blurs {
+    .bmx-blur-#{$size} {
+        transition: $transition-base;
+        filter: blur($value);
+    }
+
+    .bmx-blur-#{$size}-hover {
+        transition: $transition-base;
+        &:hover {
+            filter: blur($value);
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@each $size, $value in $bmx-scales {
+    .bmx-scale-#{$size} {
+        transition: $transition-base;
+        transform: scale($value);
+    }
+
+    .bmx-scale-#{$size}-hover {
+        transition: $transition-base;
+        &:hover {
+            transform: scale($value);
+        }
+    }
+
+    .bmx-scale-#{$size}-gpu {
+        transition: $transition-base;
+        transform: scale3d($value, $value, $value);
+    }
+
+    .bmx-scale-#{$size}-hover-gpu {
+        transition: $transition-base;
+        &:hover {
+            transform: scale3d($value, $value, $value);
+        }
+    }
+}

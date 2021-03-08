@@ -1,0 +1,25 @@
+@each $size, $value in $bmx-rotates {
+    .bmx-rotate-#{$size} {
+        transition: $transition-base;
+        transform: rotate($value);
+    }
+
+    .bmx-rotate-#{$size}-hover {
+        transition: $transition-base;
+        &:hover {
+            transform: rotate($value);
+        }
+    }
+
+    .bmx-rotate-#{$size}-gpu {
+        transition: $transition-base;
+        transform: rotate3d(0, 0, 1, $value);
+    }
+
+    .bmx-rotate-#{$size}-hover-gpu {
+        transition: $transition-base;
+        &:hover {
+            transform: rotate3d(0, 0, 1, $value);
+        }
+    }
+}

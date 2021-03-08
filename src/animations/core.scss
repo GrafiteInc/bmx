@@ -1,0 +1,5 @@
+@each $key, $value in $bmx-durations {
+    .bmx-animation-duration-#{$key} {
+        --bmx-animation-duration: #{$value};
+    }
+}

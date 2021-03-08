@@ -1,0 +1,47 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.bmx-fade-in {
+    animation-duration: var(--bmx-animation-duration);
+    animation-fill-mode: both;
+    animation-name: fadeIn;
+}
+
+.bmx-fade-out {
+    animation-duration: var(--bmx-animation-duration);
+    animation-fill-mode: both;
+    animation-name: fadeOut;
+}
+
+.bmx-hover-fade-in {
+    &:hover {
+        animation-duration: var(--bmx-animation-duration);
+        animation-fill-mode: both;
+        animation-name: fadeIn;
+    }
+}
+
+.bmx-hover-fade-out {
+    &:hover {
+        animation-duration: var(--bmx-animation-duration);
+        animation-fill-mode: both;
+        animation-name: fadeOut;
+    }
+}

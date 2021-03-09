@@ -6,14 +6,14 @@
             background: inherit;
             content: '';
             display: block;
-            height: 90%;
+            height: 100%;
             left: 0;
             position: absolute;
             right: 0;
             z-index: -1;
             top: 0;
             transform: skewY($value);
-            transform-origin: -20%;
+            transform-origin: -100%;
         }
     }
 
@@ -24,7 +24,7 @@
             background: inherit;
             content: '';
             display: block;
-            height: 90%;
+            height: 100%;
             left: 0;
             position: absolute;
             right: 0;
@@ -42,7 +42,7 @@
             background: inherit;
             content: '';
             display: block;
-            height: 90%;
+            height: 100%;
             left: 0;
             position: absolute;
             right: 0;
@@ -60,7 +60,7 @@
             background: inherit;
             content: '';
             display: block;
-            height: 90%;
+            height: 100%;
             left: 0;
             position: absolute;
             right: 0;

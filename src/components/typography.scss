@@ -9,3 +9,13 @@
         font-weight: $value;
     }
 }
+
+@each $key, $value in $bmx-line-heights {
+    .bmx-lh-#{$key} {
+        line-height: $value;
+    }
+}
+
+.bmx-f-mono {
+    font-family: $bmx-mono-font-family;
+}

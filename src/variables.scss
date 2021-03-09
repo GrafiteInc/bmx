@@ -155,6 +155,19 @@ $bmx-font-sizes: (
     "1": 1.25rem
 );
 
+$bmx-line-heights: (
+    "10": 5rem,
+    "9": 4.5rem,
+    "8": 4rem,
+    "7": 3.5rem,
+    "6": 3rem,
+    "5": 2.5rem,
+    "4": 2rem,
+    "3": 1.75rem,
+    "2": 1.5rem,
+    "1": 1.25rem
+);
+
 $bmx-font-weights: (
     "b": bold,
     "l": lighter,
@@ -169,8 +182,9 @@ $bmx-font-weights: (
     "900": 900
 );
 
-$header-height: 52px;
-$footer-height: 52px;
+$bmx-header-height: 52px;
+$bmx-footer-height: 52px;
+$bmx-mono-font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 
 :root {
     --bmx-animation-duration: 1s;

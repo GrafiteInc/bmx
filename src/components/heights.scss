@@ -11,5 +11,5 @@
 }
 
 .bmx-min-h-window {
-    min-height: calc(100vh - (#{$header-height} + #{$footer-height}));
+    min-height: calc(100vh - (#{$bmx-header-height} + #{$bmx-footer-height}));
 }

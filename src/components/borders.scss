@@ -1,0 +1,11 @@
+@each $key, $value in $bmx-borders {
+    .bmx-border-#{$key} {
+        border-width: $value !important;
+    }
+}
+
+@each $color, $value in $bmx-colors {
+    .bmx-border-#{$color} {
+        border-color: $value !important;
+    }
+}

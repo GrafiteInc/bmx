@@ -6,7 +6,6 @@
 
 @each $color, $value in $bmx-colors {
     .bmx-btn-outline-#{$color} {
-        @include button-outline-variant($value, $value);
+        @include button-outline-variant($value, $white);
     }
 }
-

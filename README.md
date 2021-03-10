@@ -1,4 +1,4 @@
-# Bootstrap Magic Extras
+![Grafite Bootstrap Magic Extras](GrafiteBootstrapMagicExtras-banner.png)
 
 ## Why?
 
@@ -15,7 +15,7 @@ A great question you may find yourself asking is why do this at all? There is ta
 
 Start a new Laravel project:
 ```php
-npm install @grafite/bmx
+npm install @grafite/bootstrap-magic-extras
 ```
 
 ## Sources

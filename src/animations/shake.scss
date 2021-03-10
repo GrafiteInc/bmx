@@ -22,12 +22,14 @@
 
 .bmx-shake-x {
     animation-duration: var(--bmx-animation-duration);
+    animation-delay: var(--bmx-animation-delay);
     animation-name: shakeX;
 }
 
 .bmx-shake-x-hover {
     &:hover {
         animation-duration: var(--bmx-animation-duration);
+        animation-delay: var(--bmx-animation-delay);
         animation-name: shakeX;
     }
 }
@@ -56,12 +58,14 @@
 
 .bmx-shake-y {
     animation-duration: var(--bmx-animation-duration);
+    animation-delay: var(--bmx-animation-delay);
     animation-name: shakeY;
 }
 
 .bmx-shake-y-hover {
     &:hover {
         animation-duration: var(--bmx-animation-duration);
+        animation-delay: var(--bmx-animation-delay);
         animation-name: shakeY;
     }
 }

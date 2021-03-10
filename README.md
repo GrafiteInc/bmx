@@ -2,7 +2,7 @@
 
 ## Why?
 
-A great question you may find yourself asking is why do this at all? There is tailwind and there are lots of parts built into Bootstrap already. Its true that Tailwind is great, howver I predominantly use Bootstrap and its utlities are lacking. This collection of animations, utities, and small bonus pieces are all built around Bootstrap's variables ensuring that anything added follows suit with the standard Bootstrap feel. This to me covers 95% of the needed aspects of designing and making any modern website.
+A great question you may find yourself asking is why do this at all? There is tailwind and there are lots of parts built into Bootstrap already. Its true that Tailwind is great, however we predominantly use Bootstrap and its utlities are lacking. This collection of animations, utilities, and small bonus pieces are all built around Bootstrap's variables ensuring that anything added follows suit with the standard Bootstrap feel. This to us covers 95% of the needed aspects of designing and making any modern website.
 
 ##### Author(s):
 * [Matt Lantz](https://github.com/mlantz) ([@mattylantz](http://twitter.com/mattylantz), mattlantz at gmail dot com)

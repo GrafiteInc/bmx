@@ -22,6 +22,16 @@
 
 .bmx-swing {
     animation-duration: var(--bmx-animation-duration);
+    animation-delay: var(--bmx-animation-delay);
     transform-origin: top center;
     animation-name: swing;
+}
+
+.bmx-swing-hover {
+    &:hover {
+        animation-duration: var(--bmx-animation-duration);
+        animation-delay: var(--bmx-animation-delay);
+        transform-origin: top center;
+        animation-name: swing;
+    }
 }

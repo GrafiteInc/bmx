@@ -3,3 +3,9 @@
         --bmx-animation-duration: #{$value};
     }
 }
+
+@each $key, $value in $bmx-delays {
+    .bmx-animation-delay-#{$key} {
+        --bmx-animation-delay: #{$value};
+    }
+}

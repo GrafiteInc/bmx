@@ -14,6 +14,7 @@
 
 .bmx-pulse {
     animation-duration: var(--bmx-animation-duration);
+    animation-delay: var(--bmx-animation-delay);
     animation-name: pulse;
     transform-origin: center center;
     animation-timing-function: ease-in-out;
@@ -22,6 +23,7 @@
 .bmx-pulse-hover {
     &:hover {
         animation-duration: var(--bmx-animation-duration);
+        animation-delay: var(--bmx-animation-delay);
         animation-name: pulse;
         transform-origin: center center;
         animation-timing-function: ease-in-out;

@@ -20,12 +20,14 @@
 
 .bmx-fade-in {
     animation-duration: var(--bmx-animation-duration);
+    animation-delay: var(--bmx-animation-delay);
     animation-fill-mode: both;
     animation-name: fadeIn;
 }
 
 .bmx-fade-out {
     animation-duration: var(--bmx-animation-duration);
+    animation-delay: var(--bmx-animation-delay);
     animation-fill-mode: both;
     animation-name: fadeOut;
 }
@@ -33,6 +35,7 @@
 .bmx-hover-fade-in {
     &:hover {
         animation-duration: var(--bmx-animation-duration);
+        animation-delay: var(--bmx-animation-delay);
         animation-fill-mode: both;
         animation-name: fadeIn;
     }
@@ -41,6 +44,7 @@
 .bmx-hover-fade-out {
     &:hover {
         animation-duration: var(--bmx-animation-duration);
+        animation-delay: var(--bmx-animation-delay);
         animation-fill-mode: both;
         animation-name: fadeOut;
     }

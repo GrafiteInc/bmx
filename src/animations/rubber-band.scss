@@ -30,6 +30,7 @@
 
 .bmx-rubber-band {
     animation-duration: var(--bmx-animation-duration);
+    animation-delay: var(--bmx-animation-delay);
     animation-fill-mode: both;
     transform-origin: center center;
     animation-name: rubberBand;
@@ -38,6 +39,7 @@
 .bmx-rubber-band-hover {
     &:hover {
         animation-duration: var(--bmx-animation-duration);
+        animation-delay: var(--bmx-animation-delay);
         animation-fill-mode: both;
         transform-origin: center center;
         animation-name: rubberBand;

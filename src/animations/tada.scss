@@ -28,12 +28,14 @@
 
 .bmx-tada {
     animation-duration: var(--bmx-animation-duration);
+    animation-delay: var(--bmx-animation-delay);
     animation-name: tada;
 }
 
 .bmx-tada-hover {
     &:hover {
         animation-duration: var(--bmx-animation-duration);
+        animation-delay: var(--bmx-animation-delay);
         animation-name: tada;
     }
 }

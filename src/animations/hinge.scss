@@ -24,6 +24,7 @@
 
 .bmx-hinge {
     animation-duration: calc(var(--bmx-animation-duration) * 2);
+    animation-delay: var(--bmx-animation-delay);
     animation-name: hinge;
     transform-origin: top left;
 }

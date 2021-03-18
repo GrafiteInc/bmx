@@ -1,0 +1,5 @@
+@each $key, $value in $bmx-opacities {
+    .bmx-opacity-#{$key} {
+        opacity: #{$value};
+    }
+}

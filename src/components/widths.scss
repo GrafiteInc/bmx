@@ -1,0 +1,17 @@
+@each $key, $value in $bmx-widths {
+    .bmx-#{$key} {
+        width: $value;
+    }
+}
+
+@each $key, $value in $bmx-min-widths {
+    .bmx-#{$key} {
+        min-width: $value;
+    }
+}
+
+@each $key, $value in $bmx-max-widths {
+    .bmx-#{$key} {
+        max-width: $value;
+    }
+}

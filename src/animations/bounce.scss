@@ -30,6 +30,7 @@
 
 .bmx-bounce {
     animation-duration: var(--bmx-animation-duration);
+    animation-delay: var(--bmx-animation-delay);
     animation-name: bounce;
     transform-origin: center bottom;
 }

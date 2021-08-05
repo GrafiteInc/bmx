@@ -7,3 +7,10 @@
         filter: drop-shadow($box-shadow);
     }
 }
+
+.bmx-no-shadow-hover {
+    &:hover {
+        filter: none;
+        box-shadow: none;
+    }
+}

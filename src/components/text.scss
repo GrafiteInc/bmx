@@ -4,6 +4,14 @@
     }
 }
 
+@each $color, $value in $bmx-colors {
+    .bmx-text-#{$color}-hover {
+        &:hover {
+            color: rgba(mix($value, $value), var(--bmx-text-opacity)) !important;
+        }
+    }
+}
+
 @each $key, $value in $bmx-opacities {
     .bmx-text-opacity-#{$key} {
         --bmx-text-opacity: #{$value};

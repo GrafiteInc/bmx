@@ -1,4 +1,4 @@
-![Grafite Bootstrap Magic Extras](GrafiteBootstrapMagicExtras-banner.png)
+![Grafite Bootstrap Magic Extras](https://github.com/GrafiteInc/bmx/blob/main/GrafiteBootstrapMagicExtras-banner.png?raw=true)
 
 ## Why?
 

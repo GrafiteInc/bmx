@@ -2,14 +2,32 @@
     .bmx-bg-#{$color} {
         background-color: rgba(mix($value, $value), var(--bmx-bg-opacity));
     }
+
+    .bmx-bg-#{$color}-hover {
+        &:hover {
+            background-color: rgba(mix($value, $value), var(--bmx-bg-opacity));
+        }
+    }
 }
 
 @each $key, $value in $bmx-opacities {
     .bmx-bg-opacity-#{$key} {
         --bmx-bg-opacity: #{$value};
     }
+
+    .bmx-bg-opacity-#{$key}-hover {
+        &:hover {
+            --bmx-bg-opacity: #{$value};
+        }
+    }
 }
 
 .bmx-bg-transparent {
     background-color: transparent;
+}
+
+.bmx-bg-transparent-hover {
+    &:hover {
+        background-color: transparent;
+    }
 }

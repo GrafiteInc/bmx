@@ -4,7 +4,7 @@ $bmx-blurs: (
     "2": 6px,
     "3": 18px,
     "4": 72px
-);
+) !default;
 
 $bmx-scales: (
     "0": 1.00,
@@ -12,7 +12,7 @@ $bmx-scales: (
     "2": 1.15,
     "3": 1.30,
     "4": 1.50,
-);
+) !default;
 
 $bmx-rotates: (
     "0": 0deg,
@@ -20,7 +20,7 @@ $bmx-rotates: (
     "2": 90deg,
     "3": 180deg,
     "4": 270deg,
-);
+) !default;
 
 $bmx-sizes: (
     "1": 1rem,
@@ -38,7 +38,7 @@ $bmx-sizes: (
     "16": 16rem,
     "18": 18rem,
     "20": 20rem,
-);
+) !default;
 
 $bmx-colors: (
     "white": $white,
@@ -62,7 +62,7 @@ $bmx-colors: (
     "gray-700": $gray-700,
     "gray-800": $gray-800,
     "gray-900": $gray-900
-);
+) !default;
 
 $bmx-heights: (
     "h-1": 1rem,
@@ -105,7 +105,7 @@ $bmx-heights: (
     "vh-50": 50vh,
     "vh-75": 75vh,
     "vh-100": 100vh
-);
+) !default;
 
  $bmx-min-heights: (
     "min-h-1": 1rem,
@@ -148,7 +148,7 @@ $bmx-heights: (
     "min-vh-50": 50vh,
     "min-vh-75": 75vh,
     "min-vh-100": 100vh
-);
+) !default;
 
 $bmx-max-heights: (
     "max-h-1": 1rem,
@@ -191,7 +191,7 @@ $bmx-max-heights: (
     "max-vh-50": 50vh,
     "max-vh-75": 75vh,
     "max-vh-100": 100vh
-);
+) !default;
 
 $bmx-widths: (
     "w-5": 5%,
@@ -238,7 +238,7 @@ $bmx-widths: (
     "w-f-28": 28rem,
     "w-f-29": 29rem,
     "w-f-30": 30rem,
-);
+) !default;
 
 $bmx-max-widths: (
     "max-w-5": 5%,
@@ -285,7 +285,7 @@ $bmx-max-widths: (
     "max-w-f-28": 28rem,
     "max-w-f-29": 29rem,
     "max-w-f-30": 30rem,
-);
+) !default;
 
 $bmx-min-widths: (
     "min-w-5": 5%,
@@ -332,7 +332,7 @@ $bmx-min-widths: (
     "min-w-f-28": 28rem,
     "min-w-f-29": 29rem,
     "min-w-f-30": 30rem,
-);
+) !default;
 
 $bmx-slants: (
     "1": 1deg,
@@ -345,7 +345,7 @@ $bmx-slants: (
     "8": 8deg,
     "9": 9deg,
     "10": 10deg
-);
+) !default;
 
 $bmx-opacities: (
     "0": 0,
@@ -363,7 +363,7 @@ $bmx-opacities: (
     "90": 0.9,
     "95": 0.95,
     "100": 1
-);
+) !default;
 
 $bmx-durations: (
     "200": 200ms,
@@ -378,7 +378,7 @@ $bmx-durations: (
     "8": 8s,
     "9": 9s,
     "10": 10s
-);
+) !default;
 
 $bmx-delays: (
     "200": 200ms,
@@ -392,7 +392,7 @@ $bmx-delays: (
     "8": 8s,
     "9": 9s,
     "10": 10s
-);
+) !default;
 
 $bmx-font-sizes: (
     "10": 5rem,
@@ -405,7 +405,7 @@ $bmx-font-sizes: (
     "3": 1.75rem,
     "2": 1.5rem,
     "1": 1.25rem
-);
+) !default;
 
 $bmx-borders: (
     "10": 10px,
@@ -418,7 +418,7 @@ $bmx-borders: (
     "3": 3px,
     "2": 2px,
     "1": 1px
-);
+) !default;
 
 $bmx-line-heights: (
     "10": 5rem,
@@ -431,7 +431,7 @@ $bmx-line-heights: (
     "3": 1.75rem,
     "2": 1.5rem,
     "1": 1.25rem
-);
+) !default;
 
 $bmx-font-weights: (
     "b": bold,
@@ -445,11 +445,11 @@ $bmx-font-weights: (
     "700": 700,
     "800": 800,
     "900": 900
-);
+) !default;
 
-$bmx-header-height: 52px;
-$bmx-footer-height: 52px;
-$bmx-mono-font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+$bmx-header-height: 52px !default;
+$bmx-footer-height: 52px !default;
+$bmx-mono-font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace !default;
 
 :root {
     --bmx-animation-duration: 1s;

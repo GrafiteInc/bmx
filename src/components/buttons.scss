@@ -5,8 +5,14 @@
 }
 
 @each $color, $value in $bmx-colors {
+    $textColor: $white;
+
+    @if $color == 'white' {
+        $textColor: $black;
+    }
+
     .bmx-btn-outline-#{$color} {
-        @include button-outline-variant($value, $white);
+        @include button-outline-variant($value, $textColor);
     }
 }
 

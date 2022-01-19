@@ -1,3 +1,7 @@
+$bmx-brand-primary: $primary !default;
+$bmx-brand-secondary: $secondary !default;
+$bmx-brand-terciary: $info !default;
+
 $bmx-blurs: (
     "0": 0px,
     "1": 3px,
@@ -5,6 +9,13 @@ $bmx-blurs: (
     "3": 18px,
     "4": 72px
 ) !default;
+
+$bmx-indexes: (
+    "0": 0,
+    "1": 10,
+    "3": 1000,
+    "4": 10000,
+)!default;
 
 $bmx-scales: (
     "0": 1.00,
@@ -61,7 +72,13 @@ $bmx-colors: (
     "gray-600": $gray-600,
     "gray-700": $gray-700,
     "gray-800": $gray-800,
-    "gray-900": $gray-900
+    "gray-900": $gray-900,
+    "brand-primary": $bmx-brand-primary,
+    "brand-secondary": $bmx-brand-secondary,
+    "brand-terciary": $bmx-brand-terciary,
+    "primary": $primary,
+    "secondary": $secondary,
+    "info": $info,
 ) !default;
 
 $bmx-heights: (
@@ -404,7 +421,9 @@ $bmx-font-sizes: (
     "4": 2rem,
     "3": 1.75rem,
     "2": 1.5rem,
-    "1": 1.25rem
+    "1": 1.25rem,
+    "sm": 0.85rem,
+    "xs": 0.50rem,
 ) !default;
 
 $bmx-borders: (

@@ -1,0 +1,5 @@
+@each $depth, $value in $bmx-indexes {
+    .bmx-z-#{$depth} {
+        z-index: $value;
+    }
+}

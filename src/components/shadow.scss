@@ -2,9 +2,29 @@
     filter: drop-shadow($box-shadow);
 }
 
+.bmx-drop-shadow-sm {
+    filter: drop-shadow($box-shadow-sm);
+}
+
+.bmx-drop-shadow-lg {
+    filter: drop-shadow($box-shadow-lg);
+}
+
 .bmx-drop-shadow-hover {
     &:hover {
         filter: drop-shadow($box-shadow);
+    }
+}
+
+.bmx-drop-shadow-hover-sm {
+    &:hover {
+        filter: drop-shadow($box-shadow-sm);
+    }
+}
+
+.bmx-drop-shadow-hover-lg {
+    &:hover {
+        filter: drop-shadow($box-shadow-lg);
     }
 }
 
@@ -12,5 +32,35 @@
     &:hover {
         filter: none;
         box-shadow: none;
+    }
+}
+
+.bmx-inner-shadow {
+    box-shadow: inset $box-shadow;
+}
+
+.bmx-inner-shadow-hover {
+    &:hover {
+        box-shadow: inset $box-shadow;
+    }
+}
+
+.bmx-inner-shadow-sm {
+    box-shadow: inset $box-shadow-sm;
+}
+
+.bmx-inner-shadow-hover-sm {
+    &:hover {
+        box-shadow: inset $box-shadow-sm;
+    }
+}
+
+.bmx-inner-shadow-lg {
+    box-shadow: inset $box-shadow-lg;
+}
+
+.bmx-inner-shadow-hover-lg {
+    &:hover {
+        box-shadow: inset $box-shadow-lg;
     }
 }

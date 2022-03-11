@@ -2,6 +2,18 @@
     .bmx-btn-#{$color} {
         @include button-variant($value, $value);
     }
+
+    @media (prefers-color-scheme: dark) {
+        .bmx-dark-btn-#{$color} {
+            @include button-variant($value, $value);
+        }
+    }
+
+    @media (prefers-color-scheme: light) {
+        .bmx-light-btn-#{$color} {
+            @include button-variant($value, $value);
+        }
+    }
 }
 
 @each $color, $value in $bmx-colors {
@@ -13,6 +25,18 @@
 
     .bmx-btn-outline-#{$color} {
         @include button-outline-variant($value, $textColor);
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .bmx-dark-btn-outline-#{$color} {
+            @include button-outline-variant($value, $textColor);
+        }
+    }
+
+    @media (prefers-color-scheme: light) {
+        .bmx-light-btn-outline-#{$color} {
+            @include button-outline-variant($value, $textColor);
+        }
     }
 }
 

@@ -20,6 +20,30 @@
             border-color: $value !important;
         }
     }
+
+    @media (prefers-color-scheme: dark) {
+        .bmx-dark-border-#{$color} {
+            border-color: $value !important;
+        }
+
+        .bmx-dark-border-#{$color}-hover {
+            &:hover {
+                border-color: $value !important;
+            }
+        }
+    }
+
+    @media (prefers-color-scheme: light) {
+        .bmx-light-border-#{$color} {
+            border-color: $value !important;
+        }
+
+        .bmx-light-border-#{$color}-hover {
+            &:hover {
+                border-color: $value !important;
+            }
+        }
+    }
 }
 
 .bmx-rounded-left-0 {

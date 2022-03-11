@@ -8,6 +8,30 @@
             background-color: rgba(mix($value, $value), var(--bmx-bg-opacity));
         }
     }
+
+    @media (prefers-color-scheme: dark) {
+        .bmx-dark-bg-#{$color} {
+            background-color: rgba(mix($value, $value), var(--bmx-bg-opacity));
+        }
+
+        .bmx-dark-bg-#{$color}-hover {
+            &:hover {
+                background-color: rgba(mix($value, $value), var(--bmx-bg-opacity));
+            }
+        }
+    }
+
+    @media (prefers-color-scheme: light) {
+        .bmx-light-bg-#{$color} {
+            background-color: rgba(mix($value, $value), var(--bmx-bg-opacity));
+        }
+
+        .bmx-light-bg-#{$color}-hover {
+            &:hover {
+                background-color: rgba(mix($value, $value), var(--bmx-bg-opacity));
+            }
+        }
+    }
 }
 
 @each $key, $value in $bmx-opacities {

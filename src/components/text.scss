@@ -2,12 +2,39 @@
     .bmx-text-#{$color} {
         color: rgba(mix($value, $value), var(--bmx-text-opacity)) !important;
     }
+
+    @media (prefers-color-scheme: dark) {
+        .bmx-dark-text-#{$color} {
+            color: rgba(mix($value, $value), var(--bmx-text-opacity)) !important;
+        }
+    }
+
+    @media (prefers-color-scheme: light) {
+        .bmx-light-text-#{$color} {
+            color: rgba(mix($value, $value), var(--bmx-text-opacity)) !important;
+        }
+    }
 }
 
 @each $color, $value in $bmx-colors {
     .bmx-text-#{$color}-hover {
         &:hover {
             color: rgba(mix($value, $value), var(--bmx-text-opacity)) !important;
+        }
+    }
+    @media (prefers-color-scheme: dark) {
+        .bmx-dark-text-#{$color}-hover {
+            &:hover {
+                color: rgba(mix($value, $value), var(--bmx-text-opacity)) !important;
+            }
+        }
+    }
+
+    @media (prefers-color-scheme: light) {
+        .bmx-light-text-#{$color}-hover {
+            &:hover {
+                color: rgba(mix($value, $value), var(--bmx-text-opacity)) !important;
+            }
         }
     }
 }
@@ -27,6 +54,28 @@
             color: shade-color($value, .5);
         }
     }
+
+    @media (prefers-color-scheme: dark) {
+        .bmx-dark-link-#{$color} {
+            color: $value;
+
+            &:hover,
+            &:focus {
+                color: shade-color($value, .5);
+            }
+        }
+    }
+
+    @media (prefers-color-scheme: light) {
+        .bmx-light-link-#{$color} {
+            color: $value;
+
+            &:hover,
+            &:focus {
+                color: shade-color($value, .5);
+            }
+        }
+    }
 }
 
 .bmx-td-none-hover {
@@ -36,7 +85,7 @@
 }
 
 .bmx-td-none {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .bmx-td-underline {
@@ -52,5 +101,17 @@
 @each $color, $value in $bmx-colors {
     .bmx-td-#{$color} {
         text-decoration-color: rgba(mix($value, $value), var(--bmx-bg-opacity));
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .bmx-dark-td-#{$color} {
+            text-decoration-color: rgba(mix($value, $value), var(--bmx-bg-opacity));
+        }
+    }
+
+    @media (prefers-color-scheme: light) {
+        .bmx-light-td-#{$color} {
+            text-decoration-color: rgba(mix($value, $value), var(--bmx-bg-opacity));
+        }
     }
 }

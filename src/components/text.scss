@@ -51,7 +51,7 @@
 
         &:hover,
         &:focus {
-            color: shade-color($value, .5);
+            color: shade-color($value, .5%);
         }
     }
 
@@ -61,7 +61,7 @@
 
             &:hover,
             &:focus {
-                color: shade-color($value, .5);
+                color: shade-color($value, .5%);
             }
         }
     }
@@ -72,7 +72,7 @@
 
             &:hover,
             &:focus {
-                color: shade-color($value, .5);
+                color: shade-color($value, .5%);
             }
         }
     }

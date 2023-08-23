@@ -1,0 +1,21 @@
+@each $key, $value in $bmx-durations {
+    .bmx-transition-duration-#{$key} {
+        --bmx-transition-duration: #{$value};
+    }
+}
+
+.ease-out-effect {
+    transition: all var(--bmx-transition-duration) ease-out;
+}
+
+.ease-in-effect {
+    transition: all var(--bmx-transition-duration) ease-in;
+}
+
+.ease-in-out-effect {
+    transition: all var(--bmx-transition-duration) ease-in-out;
+}
+
+.ease-linear-effect {
+    transition: all var(--bmx-transition-duration) linear;
+}

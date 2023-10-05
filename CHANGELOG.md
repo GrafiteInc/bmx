@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 ----
 
+## [v0.1.0] - 2023-10-05
+
+### Added
+- More animations
+
 ## [v0.1.1] - 2021-03-09
 
 ### Added

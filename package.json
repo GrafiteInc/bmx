@@ -1,6 +1,6 @@
 {
   "name": "@grafite/bootstrap-magic-extras",
-  "version": "0.1.22",
+  "version": "0.2.0",
   "description": "A collection of utility style classes to add extra features to Bootstrap.",
   "homepage": "https://github.com/GrafiteInc/bmx#readme",
   "bugs": {

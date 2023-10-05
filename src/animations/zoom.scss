@@ -1,0 +1,17 @@
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.bmx-zoom-in {
+    animation-duration: var(--bmx-animation-duration);
+    animation-delay: var(--bmx-animation-delay);
+    transform-origin: center center;
+    animation-name: zoomIn;
+}

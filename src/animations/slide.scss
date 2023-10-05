@@ -1,0 +1,17 @@
+@keyframes slideInDown {
+  from {
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.bmx-slide-in-down {
+    animation-duration: var(--bmx-animation-duration);
+    animation-delay: var(--bmx-animation-delay);
+    transform-origin: center center;
+    animation-name: slideInDown;
+}

@@ -442,6 +442,11 @@ $bmx-delays: (
 ) !default;
 
 $bmx-font-sizes: (
+    "15": 10rem,
+    "14": 9rem,
+    "13": 8rem,
+    "12": 7rem,
+    "11": 6rem,
     "10": 5rem,
     "9": 4.5rem,
     "8": 4rem,
@@ -454,6 +459,7 @@ $bmx-font-sizes: (
     "1": 1.25rem,
     "sm": 0.85rem,
     "xs": 0.50rem,
+    "xxs": 0.25rem,
 ) !default;
 
 $bmx-borders: (

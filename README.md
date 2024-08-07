@@ -9,7 +9,7 @@ A great question you may find yourself asking is why do this at all? There is ta
 
 ## Requirements
 
-1. Bootstrap 4.5+
+1. Bootstrap 5.3.3+
 
 ### Installation
 

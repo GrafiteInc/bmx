@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 ----
 
+## [v0.1.1] - 2025-05-31
+
+### Chore
+- Update package.json
+- Update CHANGELOG.md
+
+### Fix
+- spacing for cards
+
 ## [v0.3.0] - 2024-08-07
 
 ### Fixed

@@ -1,10 +1,12 @@
 @each $key, $value in $bmx-borders {
     .bmx-outline-#{$key} {
+        outline-style: solid;
         outline-width: $value !important;
     }
 
     .bmx-outline-#{$key}-hover {
         &:hover {
+            outline-style: solid;
             outline-width: $value !important;
         }
     }
@@ -44,6 +46,22 @@
             }
         }
     }
+}
+
+.bmx-outline-dashed {
+    outline-style: dashed !important;
+}
+
+.bmx-outline-dotted {
+    outline-style: dotted !important;
+}
+
+.bmx-outline-double {
+    outline-style: double !important;
+}
+
+.bmx-outline-groove {
+    outline-style: groove !important;
 }
 
 .bmx-outline-offset-1 {

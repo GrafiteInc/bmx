@@ -1,0 +1,63 @@
+@each $key, $value in $bmx-borders {
+    .bmx-outline-#{$key} {
+        outline-width: $value !important;
+    }
+
+    .bmx-outline-#{$key}-hover {
+        &:hover {
+            outline-width: $value !important;
+        }
+    }
+}
+
+@each $color, $value in $bmx-colors {
+    .bmx-outline-#{$color} {
+        outline-color: $value !important;
+    }
+
+    .bmx-outline-#{$color}-hover {
+        &:hover {
+            outline-color: $value !important;
+        }
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .bmx-dark-outline-#{$color} {
+            outline-color: $value !important;
+        }
+
+        .bmx-dark-outline-#{$color}-hover {
+            &:hover {
+                outline-color: $value !important;
+            }
+        }
+    }
+
+    @media (prefers-color-scheme: light) {
+        .bmx-light-outline-#{$color} {
+            outline-color: $value !important;
+        }
+
+        .bmx-light-outline-#{$color}-hover {
+            &:hover {
+                outline-color: $value !important;
+            }
+        }
+    }
+}
+
+.bmx-outline-offset-1 {
+    outline-offset: 1px !important;
+}
+
+.bmx-outline-offset-2 {
+    outline-offset: 2px !important;
+}
+
+.bmx-outline-offset-3 {
+    outline-offset: 3px !important;
+}
+
+.bmx-outline-offset-4 {
+    outline-offset: 4px !important;
+}

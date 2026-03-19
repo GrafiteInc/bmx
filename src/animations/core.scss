@@ -9,3 +9,7 @@
         --bmx-animation-delay: #{$value};
     }
 }
+
+.bmx-animation-continuous {
+    animation-iteration-count: infinite;
+}
